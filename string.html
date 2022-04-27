@@ -1,0 +1,55 @@
+<html>
+<head>
+<script>
+function len()
+{
+   var s=new String("Apple Banana Kiwi");
+   document.write(s.length);
+ }
+function str()
+{
+   var p=new String("Apple Banana Kiwi");
+   document.write(p.substr(2,6));
+}
+function slice()
+{
+   var q=new String("Apple Banana Kiwi");
+   document.write(q.slice(2,6));
+}
+function U()
+{
+   var t=new String("Apple Banana Kiwi");
+   document.write(t.toUpperCase());
+}
+function L()
+{
+   var t1=new String("Apple Banana Kiwi");
+   document.write(t1.toLowerCase());
+}
+function C()
+{
+   var x ="RCPIMRD";
+   var y ="SHIRPUR";
+   document.write(x.concat(y));
+   }
+function Rep()
+{
+    var r = "Ashvini";
+	document.write(r.replace("Ashvini","komal"));
+}
+</script>
+</head>
+<body align="center" bgcolor="pink">
+<form>
+<label>String Function</label><br><br>
+<input type="button" name="l1" onclick="len();" value="length"><br><br>
+<input type="button" name="s1" onclick="str();" value="substr"><br><br>
+<input type="button" name="q1" onclick="slice();" value="slice"><br><br>
+<input type="button" name="t1" onclick="U();" value="upper"><br><br>
+<input type="button" name="t2" onclick="L();" value="lower"><br><br>
+<input type="button" name="c2" onclick="C();" value="concat"><br><br>
+<input type="button" name="r2" onclick="Rep();" value="replace">
+
+</form>
+</body>
+</html>
